@@ -61,7 +61,7 @@ nav li a {
 }
 
 li {
-    color: black;
+    color: white;
     padding: 8px;
 }
 
@@ -97,21 +97,9 @@ main {
   font-family: 'Roboto Slab', serif;
 }
 
-#about {
+#about, #resources {
     width: 50%;
     float: left;
-    margin 0 2%;
-}
-
-#resources {
-    width: 50%;
-    float: center;
-    margin 0 2%;
-}
-
-#disclaimer {
-    float: left;
-    font-size: 0.5em;
 }
 
 .external-link {
