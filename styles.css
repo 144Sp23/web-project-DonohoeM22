@@ -7,7 +7,7 @@ body, header, nav, main, footer, h1, div, img, ul {
 
 /* Style Rules for body and images */
 body {
-  background-color: #000;
+  background-color: white;
 }
 
 img {
@@ -15,39 +15,120 @@ img {
   display: block;
 }
 
-/* Style rules for mobile viewport */
+
 /* Style rule for header */
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #000;
-  height: 190px;
+  bottom: 0;
+  background-color: white;
+  height: 125px;
 }
 
 header img {
   margin: 0 auto;
+  float: left;;
+  max-width: 15%;
+  display: block;
 }
 
 /* Style rules for navigation area */
 nav {
-  padding: 1%;
-  margin-bottom: 1%;
+  padding: 0;
+  float: center;
+  margin: 0;
+  width: auto;
+  background-color: gray
 }
 
 nav ul {
   list-style-type: none;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 5em 3em 0 3em;
+  padding: 8px;
 }
 
 li {
-    float: left;
+    color: black;
 }
 
 a {
     display: block;
-    padding: 8ps;
-    background-color: #fff;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    background-color: rebeccapurple;
+}
+
+a:active {
+    background-color: rebeccapurple
+}
+
+/* Style rules for main content */
+main {
+  clear: left;
+  margin-left: 1em;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about {
+    width: 50%;
+    float: left;
+    margin 0 2%;
+}
+
+#resources {
+    width: 50%;
+    float: center;
+    margin 0 2%;
+}
+
+#disclaimer {
+    float: left;
+    font-size: 0.5em;
+}
+
+#hero {
+    max-width: 100%;
+    display: block;
+}
+
+.external-link {
+    float: left;
+    list-style: circle;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    
+}
+
+/* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    background-color: white;
+    color: black;
+}
+
+footer p a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+footer h4 {
+    font-size: 0.75em;
 }
