@@ -22,7 +22,7 @@ header {
   position: sticky;
   top: 0;
   bottom: 0;
-  background-color: white;
+  background-color: gray;
   height: 125px;
 }
 
@@ -45,12 +45,24 @@ nav {
 nav ul {
   list-style-type: none;
   text-align: center;
-  margin: 5em 3em 0 3em;
-  padding: 8px;
+  margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 li {
     color: black;
+    padding: 8px;
 }
 
 a {
