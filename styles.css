@@ -22,13 +22,13 @@ header {
   position: sticky;
   top: 0;
   bottom: 0;
-  background-color: gray;
+  background-color: white;
   height: 125px;
 }
 
 header img {
   margin: 0 auto;
-  float: left;;
+  float: left;
   max-width: 15%;
   display: block;
 }
@@ -36,10 +36,10 @@ header img {
 /* Style rules for navigation area */
 nav {
   padding: 0;
-  float: center;
+  float: left;
   margin: 0;
   width: auto;
-  background-color: gray
+  background-color: white;
 }
 
 nav ul {
