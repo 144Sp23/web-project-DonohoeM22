@@ -11,7 +11,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -112,11 +112,6 @@ main {
 #disclaimer {
     float: left;
     font-size: 0.5em;
-}
-
-#hero {
-    max-width: 100%;
-    display: block;
 }
 
 .external-link {
