@@ -1,0 +1,53 @@
+/*CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style Rules for body and images */
+body {
+  background-color: #000;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for mobile viewport */
+/* Style rule for header */
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  height: 190px;
+}
+
+header img {
+  margin: 0 auto;
+}
+
+/* Style rules for navigation area */
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8ps;
+    background-color: #fff;
+}
